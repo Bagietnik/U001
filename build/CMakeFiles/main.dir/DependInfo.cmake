@@ -102,8 +102,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/bagieta/Desktop/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "/home/bagieta/Desktop/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/home/bagieta/Desktop/pico-sdk/src/rp2_common/boot_stage2/include"
-  "/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/include"
-  "/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_pwm/include"
   )
 
 # The set of dependency files which are needed:
@@ -117,7 +115,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/bagieta/Desktop/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "/home/bagieta/Desktop/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "/home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.obj.d"
-  "/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"

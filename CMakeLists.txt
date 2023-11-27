@@ -11,6 +11,6 @@ add_executable(main
     main.cpp
 )
 
-target_link_libraries(main pico_stdlib hardware_adc hardware_pwm)
+target_link_libraries(main pico_stdlib)
 
 pico_add_extra_outputs(main)

@@ -58,9 +58,9 @@ CMakeFiles/main.dir/main.cpp.obj: /home/bagieta/Desktop/U001/main.cpp \
  /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/bagieta/Desktop/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
- /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
- /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
  /home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
  /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
- /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+ /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+ /home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
+ /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
+ /home/bagieta/Desktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h

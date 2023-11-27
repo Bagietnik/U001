@@ -423,30 +423,6 @@ home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.s
 
-home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.obj
-
-# target to build an object file
-home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-
-home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.i
-
-# target to preprocess a source file
-home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.s
-
-# target to generate assembly for a file
-home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
 home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -1201,9 +1177,6 @@ help:
 	@echo "... home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
-	@echo "... home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.i"
-	@echo "... home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.s"

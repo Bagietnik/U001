@@ -17,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.obj"
   "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/common/pico_util/queue.c.obj.d"
-  "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-  "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "CMakeFiles/main.dir/home/bagieta/Desktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
