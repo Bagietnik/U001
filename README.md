@@ -37,6 +37,8 @@ Below is an example covering both of the steps mentioned above:
   - CMake
   - C/C++
   - FreeRTOS
+ 
+![Zrzut ekranu 2023-03-12 135435](https://github.com/Bagietnik/U001/assets/84154206/c6d8acc3-52cd-4ffe-bf4d-2bb4e09e55f5)
 
 
 
