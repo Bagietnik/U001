@@ -1,3 +1,0 @@
-/home/bagieta/Desktop/U001/build/pioasm/CMakeFiles/pioasm.dir
-/home/bagieta/Desktop/U001/build/pioasm/CMakeFiles/edit_cache.dir
-/home/bagieta/Desktop/U001/build/pioasm/CMakeFiles/rebuild_cache.dir
