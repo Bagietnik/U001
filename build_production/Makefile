@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FreeRTOS
+
+# Build rule for target.
+FreeRTOS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FreeRTOS
+.PHONY : FreeRTOS
+
+# fast build rule for target.
+FreeRTOS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/build
+.PHONY : FreeRTOS/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -206,6 +219,198 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.c.s
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.obj: home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.obj
+
+# target to build an object file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.obj
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.obj
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.i: home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.i
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.i
+
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.s: home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreeRTOS.dir/build.make CMakeFiles/FreeRTOS.dir/home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.s
+.PHONY : home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.c.s
 
 home/bagieta/Desktop/picosdk/src/common/pico_sync/critical_section.obj: home/bagieta/Desktop/picosdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/bagieta/Desktop/picosdk/src/common/pico_sync/critical_section.obj
@@ -1148,8 +1353,33 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@echo "... FreeRTOS"
 	@echo "... bs2_default"
 	@echo "... main"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/event_groups.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/list.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/MemMang/heap_3.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/queue.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/stream_buffer.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/tasks.s"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.obj"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.i"
+	@echo "... home/bagieta/Desktop/U001/FreeRTOS-Kernel/timers.s"
 	@echo "... home/bagieta/Desktop/picosdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/bagieta/Desktop/picosdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/bagieta/Desktop/picosdk/src/common/pico_sync/critical_section.s"

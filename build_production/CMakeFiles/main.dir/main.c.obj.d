@@ -15,13 +15,24 @@ CMakeFiles/main.dir/main.c.obj: /home/bagieta/Desktop/U001/src/main.c \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/bagieta/Desktop/U001/Config/FreeRTOSConfig.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/projdefs.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/portable.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0/portmacro.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/task.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/list.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/queue.h \
+ /home/bagieta/Desktop/U001/FreeRTOS-Kernel/include/task.h \
  /home/bagieta/Desktop/picosdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/bagieta/Desktop/picosdk/src/common/pico_base/include/pico.h \
  /home/bagieta/Desktop/picosdk/src/common/pico_base/include/pico/types.h \
  /home/bagieta/Desktop/picosdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /home/bagieta/Desktop/U001/build_production/generated/pico_base/pico/version.h \
  /home/bagieta/Desktop/picosdk/src/common/pico_base/include/pico/config.h \
  /home/bagieta/Desktop/U001/build_production/generated/pico_base/pico/config_autogen.h \

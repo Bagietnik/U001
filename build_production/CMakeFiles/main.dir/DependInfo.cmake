@@ -102,6 +102,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/bagieta/Desktop/picosdk/src/rp2_common/pico_int64_ops/include"
   "/home/bagieta/Desktop/picosdk/src/rp2_common/pico_mem_ops/include"
   "/home/bagieta/Desktop/picosdk/src/rp2_common/boot_stage2/include"
+  "/home/bagieta/Desktop/U001/Config"
+  "/home/bagieta/Desktop/U001/FreeRTOS-Kernel/include"
+  "/home/bagieta/Desktop/U001/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
   )
 
 # The set of dependency files which are needed:
@@ -145,6 +148,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/bagieta/Desktop/U001/build_production/CMakeFiles/FreeRTOS.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

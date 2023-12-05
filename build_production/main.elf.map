@@ -61,6 +61,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main.dir/main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main.dir/main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main.dir/main.c.obj
+ .bss.queue     0x0000000000000000        0x4 CMakeFiles/main.dir/main.c.obj
+ .rodata.ms_delay
+                0x0000000000000000        0x4 CMakeFiles/main.dir/main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1016,9 +1019,9 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x0000000000000000        0xc CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccvEBraG.o
- .data          0x0000000000000000        0x0 /tmp/ccvEBraG.o
- .bss           0x0000000000000000        0x0 /tmp/ccvEBraG.o
+ .text          0x0000000000000000        0x0 /tmp/ccvQbk9b.o
+ .data          0x0000000000000000        0x0 /tmp/ccvQbk9b.o
+ .bss           0x0000000000000000        0x0 /tmp/ccvQbk9b.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1282,7 +1285,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccvEBraG.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccvQbk9b.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1934,7 +1937,8 @@ LOAD CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_standa
 LOAD CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/ccvEBraG.o
+LOAD libFreeRTOS.a
+LOAD /tmp/ccvQbk9b.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2026,7 +2030,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000598       0x2c CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x00000000000005c4       0x22 /tmp/ccvEBraG.o
+                0x00000000000005c4       0x22 /tmp/ccvQbk9b.o
  .ARM.attributes
                 0x00000000000005e6       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

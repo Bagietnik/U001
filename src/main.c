@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <FreeRTOS.h>
+#include <task.h>
+#include <queue.h>
 #include "pico/stdlib.h"
 #include "hardware/watchdog.h"
 #include "hardware/uart.h"
@@ -13,6 +16,10 @@
 #define BUTTON 20
 
 volatile bool button_pressed = false;
+
+volatile QueueHandle_t queue = NULL;
+
+const TickType_t ms_delay = 500 / portTICK_PERIOD_MS;
 
 void button_irq_handler(uint gpio, uint32_t events) {
     button_pressed = true;

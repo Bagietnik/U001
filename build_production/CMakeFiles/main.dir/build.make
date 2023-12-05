@@ -801,6 +801,7 @@ main.elf: CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_s
 main.elf: CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio/stdio.c.obj
 main.elf: CMakeFiles/main.dir/home/bagieta/Desktop/picosdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 main.elf: CMakeFiles/main.dir/build.make
+main.elf: libFreeRTOS.a
 main.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 main.elf: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bagieta/Desktop/U001/build_production/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable main.elf"

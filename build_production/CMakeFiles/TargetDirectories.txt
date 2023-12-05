@@ -1,3 +1,4 @@
+/home/bagieta/Desktop/U001/build_production/CMakeFiles/FreeRTOS.dir
 /home/bagieta/Desktop/U001/build_production/CMakeFiles/main.dir
 /home/bagieta/Desktop/U001/build_production/CMakeFiles/ELF2UF2Build.dir
 /home/bagieta/Desktop/U001/build_production/CMakeFiles/edit_cache.dir
