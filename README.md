@@ -19,6 +19,10 @@ Below is an example covering both of the steps mentioned above:
 
 ![image](https://github.com/Bagietnik/U001/assets/84154206/4b81423d-38bf-4422-88dc-c03a4ff7bbe6)
 
+
+![image](https://github.com/Bagietnik/U001/assets/84154206/94a67fcb-586b-42f0-853d-7a2030923aca)
+
+
 **How to run the code**
 1. Clone the repository to the local environment
 2. mkdir build
